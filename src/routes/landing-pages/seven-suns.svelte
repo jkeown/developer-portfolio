@@ -1,6 +1,6 @@
 <script> 
   import { page } from '$app/stores'
-  </script>
+</script>
 <section class="background">
   <div class="main">
     <div class="logo">
