@@ -2,4 +2,4 @@
 
 ## Jared Keown
 
-[Visit website](https://jaredkeown.com);
+[Visit website](https://jaredkeown.com)
