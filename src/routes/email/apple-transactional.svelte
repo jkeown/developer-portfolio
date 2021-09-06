@@ -548,7 +548,7 @@ import { page } from '$app/stores'
                             <tbody>
                               <tr>
                                 <td style="width:28px;">
-                                  <a href="https://jaredkeown.com"
+                                  <a href="{$page.path}"
                                   >
                                     <img alt="wallet icon" height="auto" src="/email-images/apple-images/wallet-icon.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="28" />
                                   </a>

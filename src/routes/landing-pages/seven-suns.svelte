@@ -20,7 +20,7 @@
     </div>
   </div>
   <footer>
-    <p>©2020 Conceptual Company. All rights reserved.  <a href="/landing-pages/seven-suns" >Privacy Policy</a>  |  Created from a <a href="https://www.leadpages.com/templates/preview/PkWpvHFFwjRCTHzY846oj8">Leadpages</a> template.</p>
+    <p>©2020 Conceptual Company. All rights reserved.  <a href="{$page.path}" >Privacy Policy</a>  |  Created from a <a href="https://www.leadpages.com/templates/preview/PkWpvHFFwjRCTHzY846oj8">Leadpages</a> template.</p>
   </footer>
 </section>
 

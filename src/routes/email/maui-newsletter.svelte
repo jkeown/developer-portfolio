@@ -119,7 +119,6 @@
     }
   </style>
 </head>
-
 <section style="font-family: Helvetica, Sans-Serif; word-spacing: normal; background-color: #ffffff;">
   <div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"> An important message from Maui: Tourism, Itinerary, New Tours, Free Nights🌴 </div>
   <div style="background-color:#ffffff;">
@@ -139,8 +138,8 @@
                           <tbody>
                             <tr>
                               <td style="width:500px;">
-                                <a href="https://jaredkeown.com"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="maui newsleter logo" height="auto" src="//email-images/maui-images/maui_logo.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
+                                <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
+                                  <img alt="maui newsleter logo" height="auto" src="/email-images/maui-images/maui_logo.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
                                 </a>
                               </td>
                             </tr>
@@ -189,7 +188,7 @@
                               <tr>
                                 <td style="width:75px;">
                                   <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                    <img alt="maui guide e-book" height="auto" src="//email-images/maui-images/maui_guide.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="75">
+                                    <img alt="maui guide e-book" height="auto" src="/email-images/maui-images/maui_guide.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="75">
                                   </a>
                                 </td>
                               </tr>
@@ -256,7 +255,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="wailua valley state wayside" height="auto" src="//email-images/maui-images/wailua_valley.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="wailua valley state wayside" height="auto" src="/email-images/maui-images/wailua_valley.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -271,7 +270,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="boats at molokini crater" height="auto" src="//email-images/maui-images/molokini.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="boats at molokini crater" height="auto" src="/email-images/maui-images/molokini.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -367,7 +366,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="maui beach cove with beautiful blue water" height="auto" src="//email-images/maui-images/maui_cove.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="maui beach cove with beautiful blue water" height="auto" src="/email-images/maui-images/maui_cove.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -413,7 +412,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="hikers at haleakala" height="auto" src="//email-images/maui-images/haleakala.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="hikers at haleakala" height="auto" src="/email-images/maui-images/haleakala.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -459,7 +458,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="beautiful napili beach" height="auto" src="//email-images/maui-images/napili.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="beautiful napili beach" height="auto" src="/email-images/maui-images/napili.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -505,7 +504,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="hikers at haleakala" height="auto" src="//email-images/maui-images/sunscreens.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="hikers at haleakala" height="auto" src="/email-images/maui-images/sunscreens.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -551,7 +550,7 @@
                             <tr>
                               <td style="width:550px;">
                                 <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                  <img alt="coffee beans" height="auto" src="//email-images/maui-images/coffee.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
+                                  <img alt="coffee beans" height="auto" src="/email-images/maui-images/coffee.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550">
                                 </a>
                               </td>
                             </tr>
@@ -620,7 +619,7 @@
                               <tr>
                                 <td style="width:180px;">
                                   <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                    <img alt="firedancer holding flames to mouth" height="auto" src="//email-images/maui-images/poolside.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
+                                    <img alt="firedancer holding flames to mouth" height="auto" src="/email-images/maui-images/poolside.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
                                   </a>
                                 </td>
                               </tr>
@@ -665,7 +664,7 @@
                               <tr>
                                 <td style="width:180px;">
                                   <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                    <img alt="pool by the beach with palm trees and lounge chairs" height="auto" src="//email-images/maui-images/firedancer.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
+                                    <img alt="pool by the beach with palm trees and lounge chairs" height="auto" src="/email-images/maui-images/firedancer.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
                                   </a>
                                 </td>
                               </tr>
@@ -710,7 +709,7 @@
                               <tr>
                                 <td style="width:180px;">
                                   <a href="{$page.path}"  style="color: #f89a0d; font-weight: bold; text-decoration: underline;">
-                                    <img alt="woman wearing helmet on zipline" height="auto" src="//email-images/maui-images/zipline.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
+                                    <img alt="woman wearing helmet on zipline" height="auto" src="/email-images/maui-images/zipline.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="180">
                                   </a>
                                 </td>
                               </tr>
