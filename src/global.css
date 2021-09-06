@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:wght@700&display=swap");
+
+:root {
+  --light-gray: #f1faff;
+  --dark-gray: #3f4756;
+  --dark-green: #008a60;
+  --dark-blue: #0f4c81;
+  --border-shadow-bottom: 0 2px 3px -2px var(--dark-gray);
+  --green-blue-gradient: linear-gradient(
+    to right top,
+    #008a60,
+    #007e78,
+    #007088,
+    #005f8c,
+    #0f4c81
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  font-family: "Merriweather Sans", sans-serif;
+}
+h1 {
+  font-family: "Merriweather", serif;
+}
+#svelte {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: var(--dark-gray);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--dark-green);
+  border-bottom: 2px solid var(--dark-green);
+}
+a:focus {
+  outline: 3px solid var(--dark-blue);
+  outline-offset: 3px;
+}
+.button {
+  color: var(--dark-green);
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 2px solid var(--dark-green);
+}
+.button:hover {
+  color: var(--light-gray);
+  background-color: var(--dark-green);
+}
+.bg-gradient {
+  background-image: var(--green-blue-gradient);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 2px;
+}
