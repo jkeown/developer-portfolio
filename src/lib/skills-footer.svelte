@@ -69,17 +69,13 @@
 
 <style>
   section{
-    max-width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 1rem;
   }
   svg{
-    width: 50px;
-    fill: var(--dark-gray);
-  }
-  figure[name="secondary skills"] svg{
     width: 25px;
+    fill: var(--light-gray);
   }
 </style>

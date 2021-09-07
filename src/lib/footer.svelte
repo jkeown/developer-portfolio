@@ -1,32 +1,45 @@
 <script> 
   import { page } from '$app/stores'
-  </script>
+  import Skills from './skills-footer.svelte';
+</script>
 
 <footer>
+  
   {#if $page.path !== '/'}
-  <img src="/images/bw-profile-removebg.png" alt="jared keown profile picture">
+  <Skills />
   {/if}
-  &copy; 2021 Jared Keown
+  <div class="footer">
+    {#if $page.path !== '/'}
+    <img id="profile-pic" src="/images/bw-profile-removebg.png" alt="jared keown profile picture">
+    {/if}
+    &copy; 2021 Jared Keown
+  </div>
+
 </footer>
 
 <style>
   footer{
     background: var(--dark-gray);
     color: var(--light-gray);
-    text-align: center;
     min-height: 50px;
     padding: 25px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
-  img{
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #profile-pic{
     width: 50px;
     border-radius: 50px;
     margin-right: 1rem;
     transition: width ease .5s;
   }
-  img:hover{
+  #profile-pic:hover{
     width: 125px;
   }
 </style>
