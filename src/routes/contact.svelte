@@ -1,4 +1,5 @@
 <script>
+  import { page } from '$app/stores'
   import Testimonials from "$lib/testimonials.svelte";
 </script>
 <section class="header-projects">
