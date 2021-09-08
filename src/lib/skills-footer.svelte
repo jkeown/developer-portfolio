@@ -73,9 +73,14 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 1rem;
+    max-width: 250px;
   }
   svg{
     width: 25px;
     fill: var(--light-gray);
   }
+  @media (min-width: 600px){
+    section{
+      max-width: initial;
+    }
 </style>
