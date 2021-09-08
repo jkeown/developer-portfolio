@@ -83,4 +83,5 @@
     section{
       max-width: initial;
     }
+  }
 </style>
