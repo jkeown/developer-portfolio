@@ -3,7 +3,7 @@
   import Skills from './skills-footer.svelte';
 </script>
 
-<footer>
+<footer class:temporary-z-index = {$page.path == '/landing-pages/chat-app'}>
   
   {#if $page.path !== '/'}
   <Skills />
@@ -41,5 +41,8 @@
   }
   #profile-pic:hover{
     width: 125px;
+  }
+  .temporary-z-index{
+    z-index: 1;
   }
 </style>

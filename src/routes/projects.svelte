@@ -3,7 +3,7 @@
   import { fade, slide } from "svelte/transition";
 
   const emailImages = [{source: 'promotional-motorola-screenshot.png', category: 'promotional', href:'motorola-promotional'}, {source: 'promotional-shopify-screenshot.png', category: 'promotional', href:'shopify-promotional'}, {source: 'transactional-apple-screenshot.png', category: 'transactional', href:'apple-transactional'}, {source: 'transactional-dunkin-screenshot.png', category: 'transactional', href:'dunkin-transactional'}, {source: 'newsletter-maui-screenshot.png', category: 'newsletter', href:'maui-newsletter'}, ]
-  const landingPageImages =[ {source: 'seven-suns-screenshot.png', category: 'landing-page', href:'seven-suns'},{source: 'huddle-screenshot.png', category: 'landing-page', href:'huddle'},]
+  const landingPageImages =[ {source: 'huddle-screenshot.png', category: 'landing-page', href:'huddle'}, {source: 'seven-suns-screenshot.png', category: 'landing-page', href:'seven-suns'},{source: 'chat-app-screenshot.png', category: 'landing-page', href:'chat-app'},]
   
   let selectedImages = emailImages;
   let showAll = true;
