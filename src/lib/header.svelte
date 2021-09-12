@@ -9,7 +9,7 @@
 <header class:nav-open={navOpen} class:email-header = {$page.path === `/email/${$page.path.substring(7)}`}>
   <div class="logo">
     <a class="bg-gradient" href="/">
-      JK
+      <img class="logo" src="images/logo.svg" alt="">
     </a>
   </div>
   <button class="nav-toggle" aria-label="toggle navigation" on:click={toggleMobileNav}>
@@ -34,14 +34,15 @@
     align-items: center;
   }
   .logo {
-  max-width: 100px;
-  font-family: "Merriweather", serif;;
+    height: 50px;
+  /* max-width: 100px; */
+  /* font-family: "Merriweather", serif;;
   font-weight: 700;
   font-size: 1.5rem;
   border-right: 1px solid var(--dark-blue);
   border-bottom: 1px solid var(--dark-green);
   border-radius: 50%;
-  padding: 2px;
+  padding: 2px; */
 }
 .logo a{
   outline: var(--dark-blue) 1px 1px;
