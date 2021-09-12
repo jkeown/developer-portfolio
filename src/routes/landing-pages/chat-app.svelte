@@ -61,7 +61,7 @@
       </div>
       <div class="input-box">
         <input type="text" placeholder="Type a message...">
-        <button>></button> 
+        <a href="{$page.path}" class="button" role="button">></a> 
       </div>
     </section>
     <section class="content">
@@ -278,16 +278,16 @@ img {
   border: none;
   background: hsl(0, 0%, 100%);
 }
-.input-box button {
+.input-box .button {
   position: absolute;
   right: 10px;
-  top: 0.25rem;
+  top: -.25rem;
   background: var(--very-dark-desaturated-violet);
   border: none;
   border-radius: 50%;
   color: var(--white);
   font-weight: 700;
-  padding: 2px 7px;
+  padding: 2px 4px 2px 6px;
   font-size: 1rem;
 }
 ::placeholder {

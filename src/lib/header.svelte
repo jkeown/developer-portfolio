@@ -6,10 +6,10 @@
  const toggleMobileNav = () => navOpen = !navOpen
 </script>
 
-<header class:nav-open={navOpen} class:email-header = {$page.path === `/email/${$page.path.substring(7)}`}>
+<header class:temporary-z-index = {$page.path == '/landing-pages/chat-app'} class:nav-open={navOpen} class:email-header = {$page.path === `/email/${$page.path.substring(7)}`}>
   <div class="logo">
-    <a class="bg-gradient" href="/">
-      <img class="logo" src="images/logo.svg" alt="">
+    <a href="/" >
+      <img class="logo" src="/images/logo.svg" alt="jared keown logo">
     </a>
   </div>
   <button class="nav-toggle" aria-label="toggle navigation" on:click={toggleMobileNav}>
@@ -35,19 +35,9 @@
   }
   .logo {
     height: 50px;
-  /* max-width: 100px; */
-  /* font-family: "Merriweather", serif;;
-  font-weight: 700;
-  font-size: 1.5rem;
-  border-right: 1px solid var(--dark-blue);
-  border-bottom: 1px solid var(--dark-green);
-  border-radius: 50%;
-  padding: 2px; */
 }
-.logo a{
-  outline: var(--dark-blue) 1px 1px;
-  -webkit-text-stroke-width: 0.125px;
-  -webkit-text-stroke-color: var(--dark--blue);
+.logo a img:hover{
+    text-decoration: none !important;
 }
 .nav-toggle {
   padding: 0.5em;
@@ -158,5 +148,9 @@ font-size: initial;
 .nav-open .hamburger::after {
   background: var(--light-gray);
   opacity: 0;
+}
+
+.temporary-z-index{
+  z-index: 10;
 }
 </style>

@@ -117,6 +117,7 @@ header{
   }
   footer{
     padding: .5rem 3rem;
+    text-align: center;
   }
   footer a{
     text-decoration: underline;
