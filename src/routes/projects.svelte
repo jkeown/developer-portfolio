@@ -40,6 +40,7 @@ let y;
     <a href="/projects" class:active = {showAll} on:click={showAllProjects}>All</a>
     <a href="/projects" class:active = {showEmail} on:click={showOnlyEmail}>Email</a>
     <a href="/projects" class:active = {showLandingPages} on:click={showOnlyLandingPages}>Landing Pages</a>
+    <a href="/websites">Websites</a>
   </nav>
   {#if showEmail}
   <div class="divider"></div>
