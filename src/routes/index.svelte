@@ -34,7 +34,8 @@
   }
   h1 span{
     position: absolute;
-    font-size: 1.25rem;
+    font-family: cursive;
+    font-size: 1.5rem;
     transform-origin: left;
     transform: rotate(-15deg) translate(-10px, -20px);
   }

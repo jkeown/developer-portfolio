@@ -55,7 +55,7 @@
     padding: 2rem;
   }
   svg{
-    width: 50px;
+    width: 25px;
     fill: var(--light-gray);
     margin: 0 1rem;
   }
@@ -73,5 +73,11 @@
   }
   .temporary-z-index{
     z-index: 1;
+  }
+
+  @media (min-width: 600px){
+    svg{
+      width: 50px;
+    }
   }
 </style>
