@@ -4,7 +4,7 @@
 
 <section>
   <div>
-    <h1 class="bg-gradient"><span>Email</span> Developer</h1>
+    <h1 class="bg-gradient">Web<sup>^<span>and Email</span></sup>Developer</h1>
     <h2>Jared Keown</h2>
   </div>
   <a class="button" href="/projects">My Work</a>
@@ -27,8 +27,16 @@
   h1{
     font-size: 2rem;
   }
+  h1 sup{
+    color: var(--dark-gray);
+    font-size: 1.25rem;
+
+  }
   h1 span{
-    text-transform: uppercase;
+    position: absolute;
+    font-size: 1.25rem;
+    transform-origin: left;
+    transform: rotate(-15deg) translate(-10px, -20px);
   }
   .button{
     padding: 10px 25px;
