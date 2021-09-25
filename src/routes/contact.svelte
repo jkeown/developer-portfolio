@@ -51,4 +51,10 @@
   button:hover, button:focus{
     background-color: var(--dark-green);
   }
+
+  @media (min-width: 600px){
+    h1{
+      padding-top: 1rem;
+    }
+  }
 </style>

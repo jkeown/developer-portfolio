@@ -19,11 +19,9 @@
 </section>
 </section>
 <style>
-section{
-    padding: 1rem;
-  }
   h1{
     text-align: center;
+    margin-top: 2rem;
   }
   .website-images{
     /* max-width: 90vw; */

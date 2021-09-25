@@ -3,7 +3,7 @@
   <div class="cards"> 
     <div class="testament-card border-gradient rotate-left">
       <blockquote>
-        I had the pleasure of working with Jared and I'm glad I did. Very good communication throughout the process, professional, knowledgeable, and very respectful on ideas. I was impressed with his work, every detail was made with perfection and I truly appreciated
+        I had the pleasure of working with Jared and I'm glad I did. <strong>Very good communication</strong> throughout the process, professional, knowledgeable, and very respectful on ideas. I was impressed with his work, every detail was made with perfection and I truly appreciated
         that. Many people have given me good feedback on my website. Once again, very professional and recommendable everytime. Thank you Jared!
         <div class="gradient-divider"></div>
         <div class="align-right">
