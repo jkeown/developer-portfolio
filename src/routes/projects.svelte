@@ -57,7 +57,7 @@ let y;
   {#each selectedImages as img}
   <div class="img-card">
 
-    <img transition:fade src="images/{img.source}" alt="screenshot of email">
+    <img transition:fade src="images/{img.source}" alt={`screenshot of ${img.category} email`}>
     <a class="button" rel="nofollow noopener noreferrer" href={`email/${img.href}`}>View Live
     </a>
   </div>
@@ -67,7 +67,7 @@ let y;
   {#each landingPageImages as img}
   <div class="img-card">
 
-    <img transition:fade src="images/{img.source}" alt="screenshot of email">
+    <img transition:fade src="images/{img.source}" alt={`screenshot of ${img.category}`}>
     <a class="button" rel="nofollow noopener noreferrer" href={`landing-pages/${img.href}`}>View Live
     </a>
   </div>

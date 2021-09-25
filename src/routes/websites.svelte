@@ -11,7 +11,7 @@
     {#each websites as website}
   <div class="img-card">
 
-    <img transition:fade src="images/{website.image}" alt="screenshot of email">
+    <img transition:fade src="images/{website.image}" alt={`screenshot of ${website.title} website`}>
     <a class="button" rel="nofollow noopener noreferrer" target="_blank" href={website.href}>View Live
     </a>
   </div>
