@@ -76,8 +76,14 @@
     padding-bottom: 1rem;
   }
   svg{
-    width: 50px;
+    width: 35px;
     fill: var(--dark-gray);
+  }
+  figure[name="secondary skills"]{
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   figure[name="secondary skills"] svg{
     width: 20px;

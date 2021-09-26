@@ -13,7 +13,7 @@
 
 <style>
   section{
-    min-height: 95vh;
+    min-height: 100vh;
     width: 100%;
     flex: 1;
     display: flex;
