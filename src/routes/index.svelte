@@ -8,7 +8,7 @@
   let j = 0
   let isDeleting = false
 
-  function typing(){
+  async function typing(){
     if(i < words.length){
 
       if (!isDeleting && j <= words[i].length){
@@ -22,6 +22,7 @@
         j--
       }
       if (j == words[i].length){
+        await new Promise(r => setTimeout(r, 1500))
         isDeleting = true
       }
       if (isDeleting && j === 0){
@@ -33,7 +34,7 @@
         }
       }
       
-    setTimeout(typing, 500)
+    setTimeout(typing, 300)
     }
   }
   
