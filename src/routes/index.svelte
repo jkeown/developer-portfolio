@@ -47,9 +47,6 @@
     h1{
     font-size: 2.5rem;
   }
-  .title{
-    min-width: 370px;
-  }
   }
   @media (min-width: 700px){
     section{
