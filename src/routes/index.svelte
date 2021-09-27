@@ -1,10 +1,51 @@
 <script>
+  import { onMount } from 'svelte';
   import Skills from '$lib/skills.svelte'
+
+  const words =['Web', 'Email']
+  let word =[]
+  let i = 0
+  let j = 0
+  let isDeleting = false
+
+  function typing(){
+    if(i < words.length){
+
+      if (!isDeleting && j <= words[i].length){
+          word.push(words[i][j])
+          word = word
+        j++
+      }
+      if (isDeleting && j <= words[i].length){
+          word.pop(words[i][j])
+          word = word
+        j--
+      }
+      if (j == words[i].length){
+        isDeleting = true
+      }
+      if (isDeleting && j === 0){
+        // word = []
+        isDeleting = false
+        i++
+        if(i == words.length){
+          i = 0
+        }
+      }
+      
+    setTimeout(typing, 500)
+    }
+  }
+  
+
+  onMount(() => {
+    typing();
+  })
 </script>
 
 <section>
   <div class="title">
-    <h1 class="bg-gradient">Web<sup>^<span>and Email</span></sup>Developer</h1>
+    <h1 class="bg-gradient">{word.join('')}<span class="cursor">|</span>Developer</h1>
     <h2>Jared Keown</h2>
   </div>
   <a class="button" href="/projects">My Work</a>
@@ -24,21 +65,15 @@
     background-repeat: no-repeat;    
     background-size: cover;
   }
-  
+  .title{
+    min-width: 300px;
+  }
   h1{
     font-size: 2rem;
   }
-  h1 sup{
+  .cursor{
     color: var(--dark-gray);
-    font-size: 1.25rem;
-
-  }
-  h1 span{
-    position: absolute;
-    font-family: cursive;
-    font-size: 1.5rem;
-    transform-origin: left;
-    transform: rotate(-15deg) translate(-10px, -20px);
+    animation: blinking 1s linear infinite;
   }
   .button{
     padding: 10px 25px;
@@ -46,6 +81,9 @@
   @media (min-width: 400px){
     h1{
     font-size: 2.5rem;
+  }
+  .title{
+    min-width: 370px;
   }
   }
   @media (min-width: 700px){
