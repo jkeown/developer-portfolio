@@ -44,6 +44,7 @@ let y;
   </nav>
   {#if showEmail}
   <div class="divider"></div>
+  <p class="email-info"><em>*All emails recreated using&nbsp; <a href="https://mjml.io/" target="__blank">MJML</a>.</em></p>
   <nav transition:slide id="email-specific-nav">
       <a href="/projects" class:active = {allEmailLinkActive} on:click={showingAllEmail}>All Email</a>
       <a href="/projects" class:active = {showPromotional} on:click={showOnlyPromotional}>Promotional</a>
@@ -111,6 +112,12 @@ let y;
   .divider{
     border-bottom: 1px solid var(--dark-gray);
     width: 90%;
+  }
+  .email-info{
+    line-height: 2;
+  }
+  .email-info a{
+    font-style: normal;
   }
   #email-specific-nav{
       flex-wrap: wrap;

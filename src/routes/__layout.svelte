@@ -15,5 +15,6 @@
     flex-direction: column;
     align-items: center;
     flex: 1 0 auto;
+    margin-top: 50px;
   }
 </style>

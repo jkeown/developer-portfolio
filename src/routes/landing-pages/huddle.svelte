@@ -23,7 +23,7 @@
     </section>
   </section>
   <footer>
-    <small>Created from a <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> template.</small>
+    <small>Created from a <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> challenge.</small>
   </footer>
 </section>
 

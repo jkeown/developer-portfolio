@@ -8,9 +8,7 @@
 
 <header class:temporary-z-index = {$page.path == '/landing-pages/chat-app'} class:nav-open={navOpen} class:email-header = {$page.path === `/email/${$page.path.substring(7)}`}>
   <div class="logo">
-    <a href="/" >
-      <img class="logo" src="/images/logo.svg" alt="jared keown logo">
-    </a>
+    <a href="/">K</a>
   </div>
   <button class="nav-toggle" aria-label="toggle navigation" on:click={toggleMobileNav}>
     <span class="hamburger"></span>
@@ -20,8 +18,9 @@
   {/if} -->
   <nav class="mobile-nav">
     <a class:active = {$page.path === '/'} href="/" on:click={toggleMobileNav}>Home</a>
+    <a class:active = {$page.path === '/react'} href="/react" on:click={toggleMobileNav}>React</a>
     <a class:active = {$page.path === '/projects'} href="/projects" on:click={toggleMobileNav}>Projects</a>
-    <a class:active = {$page.path === '/contact'} href="/contact" on:click={toggleMobileNav}>Contact</a>
+    <a class:active = {$page.path === '/contact'} href="/contact" on:click={toggleMobileNav}>Contact/About</a>
   </nav>
 </header>
 
@@ -29,15 +28,20 @@
 <style>
   header{
     display: flex;
-    height: 50px;
+    height: 55px;
     justify-content: space-around;
     align-items: center;
   }
   .logo {
-    height: 50px;
+    width: 75px;
+    height: 55px;
+    background: url(/images/logo.svg); background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 31px;
+    font-size: 48px;
 }
-.logo a img:hover{
-    text-decoration: none !important;
+.logo > a:hover{
+    border-bottom: none !important;
 }
 .nav-toggle {
   padding: 0.5em;
@@ -112,7 +116,7 @@ border-bottom: 2px solid var(--dark-green);
     display: none;
   }
 .mobile-nav{
-  width: 250px;
+  width: 350px;
   position: static;
   transform: translateX(0);
   background-image: none;

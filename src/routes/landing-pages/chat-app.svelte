@@ -76,7 +76,7 @@
     </div>
   </div>
     <footer>
-      Created from a <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> template.
+      Created from a <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> challenge.
     </footer>
 
 

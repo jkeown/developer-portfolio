@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import Skills from '$lib/skills.svelte'
 
-  const words =['Web', 'Email']
+  const words =['Front-End', 'React', 'Email']
   let word =[]
   let i = 0
   let j = 0
@@ -49,13 +49,12 @@
     <h1 class="bg-gradient">{word.join('')}<span class="cursor">|</span>Developer</h1>
     <h2>Jared Keown</h2>
   </div>
-  <a class="button" href="/projects">My Work</a>
+  <a class="button" href="/react">My Work</a>
   <Skills />
 </section>
 
 <style>
   section{
-    min-height: 100vh;
     width: 100%;
     flex: 1;
     display: flex;
@@ -70,7 +69,7 @@
     min-width: 300px;
   }
   h1{
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .cursor{
     color: var(--dark-gray);
@@ -89,7 +88,8 @@
   }
   @media (min-width: 700px){
     section{
-    background-size: contain;
+    background-size: 35%;
+    background-position: 25% 0;
   }
   }
   

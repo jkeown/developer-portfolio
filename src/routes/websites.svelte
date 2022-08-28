@@ -6,14 +6,20 @@
 </script>
 
 <section class="websites">
-  <h1>Recent Websites</h1>
+  <h1>Websites</h1>
   <section class="website-images">
     {#each websites as website}
   <div class="img-card">
 
     <img transition:fade src="images/{website.image}" alt={`screenshot of ${website.title} website`}>
+
+    {#if website.title === 'fearless hustle'}
+    <p class="button disabled">No Longer Live
+    </p>
+    {:else}
     <a class="button" rel="nofollow noopener noreferrer" target="_blank" href={website.href}>View Live
     </a>
+    {/if}
   </div>
   {/each}
 </section>
@@ -43,7 +49,11 @@
     overflow: hidden;
     box-shadow: 0 0 3px var(--dark-gray);
   }
-
+  p.button.disabled{
+    color: #aaa;
+    border-color: #aaa;
+    background: #ddd;
+  }
   @media (min-width: 664px){
     nav{
       width: 50vw;
