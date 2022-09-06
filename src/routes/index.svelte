@@ -74,7 +74,7 @@
     min-width: 300px;
   }
   h1{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .cursor{
     color: var(--dark-gray);
