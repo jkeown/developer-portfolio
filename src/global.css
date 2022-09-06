@@ -27,6 +27,9 @@ body {
   color: var(--dark-gray);
   font-family: "Merriweather Sans", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 h1 {
   font-family: "Merriweather", serif;
 }
@@ -49,7 +52,7 @@ a {
   border-bottom: 2px solid var(--dark-green);
 }
 a:focus {
-  outline: 3px solid var(--dark-blue);
+  outline: 2px solid var(--dark-blue);
   outline-offset: 3px;
 }
 .button {
@@ -61,6 +64,7 @@ a:focus {
   font-weight: 700;
   letter-spacing: 1px;
   border: 2px solid var(--dark-green);
+  transition: background-color 400ms ease;
 }
 .button:hover {
   color: var(--light-gray);

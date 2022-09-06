@@ -1,12 +1,14 @@
 <script>
   import { page } from '$app/stores'
   import { fade, slide } from "svelte/transition";
+  import Testimonials from "$lib/testimonials.svelte";
 
-  const websites =[ {image: 'nn-screenshot.png', title: 'nati natash', href:'https://www.natinatash.com/'}, {image: 'sng-screenshot.png', title: 'shine n go detailing', href:'https://www.shinengodetailing.com'},{image: 'ba-screenshot.png', title: 'bodyboarding adventures', href:'http://bodyboardingadventures.com'}, {image: 'fh-screenshot.png', title: 'fearless hustle', href:'https://www.fearlesshustlebrand.com'}, ]
+  const websites =[ {image: 'sng-screenshot.png', title: 'shine n go detailing', href:'https://www.shinengodetailing.com'},{image: 'ba-screenshot.png', title: 'bodyboarding adventures', href:'http://bodyboardingadventures.com'}, {image: 'fh-screenshot.png', title: 'fearless hustle', href:'https://www.fearlesshustlebrand.com'}, {image: 'nn-screenshot.png', title: 'nati natash', href:'https://www.natinatash.com/'}, ]
 </script>
 
 <section class="websites">
   <h1>Websites</h1>
+  <p><em>A few from freelancing days gone by</em></p>
   <section class="website-images">
     {#each websites as website}
   <div class="img-card">
@@ -24,10 +26,14 @@
   {/each}
 </section>
 </section>
+<Testimonials />
 <style>
   h1{
     text-align: center;
     margin-top: 2rem;
+  }
+  p{
+    text-align: center;
   }
   .website-images{
     /* max-width: 90vw; */

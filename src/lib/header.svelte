@@ -20,7 +20,7 @@
     <a class:active = {$page.path === '/'} href="/" on:click={toggleMobileNav}>Home</a>
     <a class:active = {$page.path === '/react'} href="/react" on:click={toggleMobileNav}>React</a>
     <a class:active = {$page.path === '/projects'} href="/projects" on:click={toggleMobileNav}>Projects</a>
-    <a class:active = {$page.path === '/contact'} href="/contact" on:click={toggleMobileNav}>Contact/About</a>
+    <a class:active = {$page.path == '/#contact'} href="/#contact" on:click={toggleMobileNav}>Contact</a>
   </nav>
 </header>
 

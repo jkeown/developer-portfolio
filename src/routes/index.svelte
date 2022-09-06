@@ -1,6 +1,8 @@
 <script>
   import { onMount } from 'svelte';
   import Skills from '$lib/skills.svelte'
+  import About from '$lib/about.svelte'
+  import Contact from '$lib/contact.svelte'
 
   const words =['Front-End', 'React', 'Email']
   let word =[]
@@ -52,18 +54,21 @@
   <a class="button" href="/react">My Work</a>
   <Skills />
 </section>
+<About />
+<Contact />
 
 <style>
   section{
     width: 100%;
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-image: url(/images/profile-bg-trace.svg);
     background-repeat: no-repeat;    
     background-size: cover;
+    min-height: 80vh;
   }
   .title{
     min-width: 300px;
@@ -90,6 +95,7 @@
     section{
     background-size: 35%;
     background-position: 25% 0;
+    justify-content: space-evenly;
   }
   }
   

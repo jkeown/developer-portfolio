@@ -1,5 +1,5 @@
 <script> 
-  import { page } from '$app/stores'
+  import { page } from '$app/stores'  
 </script>
 
 <footer class:temporary-z-index = {$page.path == '/landing-pages/chat-app'}>
@@ -24,17 +24,17 @@
   </section>
   
   <div class="footer">
-    {#if $page.path !== '/'}
-    <img id="profile-pic" src="/images/bw-profile-removebg.png" alt="jared keown profile picture">
-    {/if}
-    &copy; 2021 Jared Keown
+    <!-- {#if $page.path !== '/'} -->
+    <img id="profile-pic" src="/images/bw-profile-removebg.png" alt="Jared Keown">
+    <!-- {/if} -->
+    <p><span class="copy">&copy;</span>2021 &nbsp;Jared Keown</p>
   </div>
 
 </footer>
 
 <style>
   footer{
-    background: var(--dark-gray);
+    background: var(--dark-blue);
     color: var(--light-gray);
     min-height: 50px;
     padding: 25px;
@@ -46,7 +46,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
   h3{
     padding-top: 1rem;
@@ -61,7 +60,7 @@
     margin: 0 1rem;
   }
   svg:hover{
-    fill: hsl(200, 100%, 77%);
+    fill: var(--dark-green);
   }
   #profile-pic{
     width: 50px;
@@ -74,6 +73,9 @@
   }
   .temporary-z-index{
     z-index: 1;
+  }
+  .footer p span.copy{
+    vertical-align: middle;
   }
 
   @media (min-width: 600px){
