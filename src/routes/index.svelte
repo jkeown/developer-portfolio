@@ -74,7 +74,7 @@
     min-width: 300px;
   }
   h1{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .cursor{
     color: var(--dark-gray);
@@ -83,7 +83,7 @@
   .button{
     padding: 10px 25px;
   }
-  @media (min-width: 400px){
+  @media (min-width: 430px){
     h1{
     font-size: 2.5rem;
   }
