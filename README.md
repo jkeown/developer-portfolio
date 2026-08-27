@@ -1,5 +1,5 @@
-# Email Developer Portfolio
+# Developer Portfolio
 
 ## Jared Keown
 
-[Visit website](https://jaredkeown.com)
+[Visit website](https://jkeown-portfolio.netlify.app)
